@@ -222,7 +222,7 @@ class calculate_thumbInstruction_jumpAddr():
 
 
 
-def main():
+if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Jump instruction address')
 
@@ -247,6 +247,4 @@ def main():
         calc_instant.judge_jump_instruction()
         calc_instant.write_excel()
 
-if __name__ == '__main__':
-    main()
 
